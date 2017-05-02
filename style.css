@@ -1,0 +1,79 @@
+h1, h2, h3, h4, h5, div, ul, li, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #2BC0E4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #EAECC6, #2BC0E4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: "Love Ya Like A Sister";
+}
+
+.content {
+  width: 60vw;
+  margin: 5% auto;
+  padding: 25px;
+  border: 1px solid rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0.05);
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 5px;
+}
+
+.nav li:hover {
+  cursor: pointer;
+  background: rgba(0,0,0,0.1);
+}
+
+.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.img img {
+  border-radius: 10px;
+}
+
+.nav, .img {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.text {
+  font-family: "Source Sans Pro";
+}
+
+.menu-block {
+  margin: 35px 0;
+}
+
+.menu-logo {
+  text-align: center;
+}
+
+.menu-logo img {
+  border-radius: 50px;
+}
+
+.menu-title {
+  text-align: center;
+}
